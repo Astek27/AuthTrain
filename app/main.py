@@ -1,6 +1,6 @@
 from fastapi import Depends, FastAPI
 
-from app.auth import get_current_user
+from auth import get_current_user
 
 
 app = FastAPI()
